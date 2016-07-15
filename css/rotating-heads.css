@@ -1,0 +1,96 @@
+/*
+Filename: rotating-heads.css
+Project: Rotating arrow with mouth position
+Type: CSS
+Author: Remo
+Initial Version: 15. July 2013
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h3,p{
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 10px;
+}
+
+h3{
+    font-size: 24px;
+    font-weight: 300;
+}
+
+p{
+    font-size: 16px;
+}
+
+.certificates{
+    font-size: 14px;
+}
+
+.content-wrapper{
+    width: 1120px;
+    margin: 15px auto;
+}
+
+.row{
+    width: 100%;
+    position: relative;
+    font-size: 0;
+    height: 260px;
+}
+
+.column-1-1,.column-1-3,.column-2-3{
+    float: left;
+    min-height: 1px;
+}
+
+.column-1-1{
+    width: 100%;
+}
+
+.column-1-3{
+    width: 33.333%;
+}
+
+.column-2-3{
+    width: 66.666%;
+}
+
+.text-holder{
+    display: none;
+}
+
+.image-holder{
+    position: relative;
+    margin: 0 auto;
+    width: 260px;
+    height: 260px;
+}
+
+.head-image,.circle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 260px;
+    height: 260px;
+}
+
+.head-image{
+    z-index: 0;
+}
+
+.circle{
+    z-index: 2;
+}
+
+.front{
+    z-index: 1;
+}
+
+.widget{
+    padding: 30px 60px;
+    position: relative;
+    top: 0;
+}
